@@ -1,1 +1,62 @@
-/* your code here */
+footer{
+    height: 20rem;
+    background-color: black;
+    color: white;
+}
+.fTitle{
+    padding: 3%;
+}
+.text{
+    padding-left: 4.5rem;
+}
+/* Icons */
+i{
+    padding: 1rem;
+    border-radius: 50%; 
+    margin-left: 0.8rem;
+}
+.fa-facebook-f{
+    background-color: #374da3;
+}
+.fa-twitter {
+    background-color: #1897ba;
+}
+.fa-instagram{
+    background-color: #ba186f;
+}
+.fa-linkedin-in{
+    background-color: #0b4e8c;
+}
+.fa-youtube{
+    background-color: #d14030;
+}
+.socialMedia{
+    padding-right: 13rem;
+}
+
+/* Footer Content */
+.links{
+    margin-top: 3%;
+}
+.highlight:before{
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 1px;
+    bottom: 0;
+    border-bottom: 1px solid whitesmoke;
+}
+.highlight {
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+.copyright{
+    margin-top: 3%;
+    width: auto;
+    height: 15%;
+    background-color: gray;
+    color: white;
+    padding: 0.6rem 16rem 0.6rem 7.5rem;
+}
